@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Install Node.js v16
 2. Clone the project
-3. Run `npm install` from project project directory to install angular & dev packages
-3. Run `npm install` from project-directory/proxy-mock-server to run mock server
-4. Run `npm start` from both project directory & proxy-mock-server
+3. Run `npm install --force` from angular-starter-app to install angular & dev packages
+3. Run `npm install --force` from angular-starter-app/proxy-mock-server to run mock server
+4. Run `npm start` from both angular-starter-app & angular-starter-app/proxy-mock-server
 5. Switch from mock server to real backend configuring at environment.ts file
 
 ## Development server
