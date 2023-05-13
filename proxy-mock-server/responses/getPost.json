@@ -1,0 +1,73 @@
+{
+    "status": null,
+    "message": null,
+    "data": {
+      "num_rows": 50,
+      "data_rows": [
+        {
+          "id": "124",
+          "content_type": "notice",
+          "content_title": "Lorem ipsum dolor sit amet, sitelit. 1",
+          "content_slug": null,
+          "content_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>",
+          "content_meta_keywords": null,
+          "content_meta_description": null,
+          "content_meta_author": null,
+          "content_display_from_date": "1970-01-01",
+          "content_display_to_date": "1970-01-01",
+          "content_created_by": "11",
+          "content_created_on": "2023-04-07 13:47:30",
+          "content_updated_by": "1",
+          "content_updated_on": "2023-04-16 15:32:27",
+          "content_status": "Y",
+          "content_archived": "N",
+          "user_email": "admin@abc.com",
+          "user_lastname": "John",
+          "user_firstname": "William"
+        },
+        {
+          "id": "123",
+          "content_type": "notice",
+          "content_title": "In a pinch a good use of our wits may help us out.          ",
+          "content_slug": null,
+          "content_text": "<p>In a spell of dry weather, when the Birds could find very little to drink, a thirsty Crow found a pitcher with a little water in it. But the pitcher was high and had a narrow neck, and no matter how he tried, the Crow could not reach the water. The poor thing felt as if he must die of thirst</p><p>Then an idea came to him. Picking up some small pebbles, he dropped them into the pitcher one by one. With each pebble the water rose a little higher until at last it was near enough so he could drink.</p>          ",
+          "content_meta_keywords": null,
+          "content_meta_description": null,
+          "content_meta_author": null,
+          "content_display_from_date": "1970-01-01",
+          "content_display_to_date": "1970-01-01",
+          "content_created_by": "11",
+          "content_created_on": "2023-04-06 17:27:57",
+          "content_updated_by": "1",
+          "content_updated_on": "2023-04-15 16:48:14",
+          "content_status": "Y",
+          "content_archived": "",
+          "user_email": "admin@abc.com",
+          "user_lastname": "John",
+          "user_firstname": "William"
+        },
+        {
+          "id": "122",
+          "content_type": "notice",
+          "content_title": "Lorem ipsum dolor sit amet, sitelit. 3",
+          "content_slug": null,
+          "content_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+          "content_meta_keywords": null,
+          "content_meta_description": null,
+          "content_meta_author": null,
+          "content_display_from_date": "1970-01-01",
+          "content_display_to_date": "1970-01-01",
+          "content_created_by": "11",
+          "content_created_on": "2023-04-06 13:29:29",
+          "content_updated_by": null,
+          "content_updated_on": null,
+          "content_status": "Y",
+          "content_archived": "N",
+          "user_email": "admin@abc.com",
+          "user_lastname": "John",
+          "user_firstname": "William"
+        }
+      ]
+    },
+    "token": null
+  }

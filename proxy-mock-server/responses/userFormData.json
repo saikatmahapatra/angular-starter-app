@@ -1,0 +1,57 @@
+{
+    "status": "error",
+    "message": null,
+    "data": {
+      "designations": [
+        {
+          "id": "20",
+          "name": "Software Engineer"
+        },
+        {
+          "id": "21",
+          "name": "Senior Software Engineer"
+        },
+        {
+          "id": "22",
+          "name": "QA-Tester"
+        },
+        {
+          "id": "24",
+          "name": "Manager"
+        }
+      ],
+      "departments": [
+        {
+          "id": "7",
+          "name": "Software Development"
+        },
+        {
+          "id": "12",
+          "name": "Testing"
+        }
+      ],
+      "employmentTypes": [
+        {
+          "id": "1",
+          "name": "Employee Full Time"
+        },
+        {
+          "id": "2",
+          "name": "Employee Part Time"
+        },
+        {
+          "id": "4",
+          "name": "Non Employee"
+        },
+        {
+          "id": "5",
+          "name": "Probationary"
+        },
+        {
+          "id": "3",
+          "name": "Contractual"
+        }
+      ]
+    },
+    "token": null
+  }

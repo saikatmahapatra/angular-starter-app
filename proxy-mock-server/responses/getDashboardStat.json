@@ -1,0 +1,79 @@
+{
+    "status": "success",
+    "message": null,
+    "data": [
+      {
+        "targetRole": "1",
+        "heading": "employees",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-primary",
+        "icon": "users",
+        "iconCss": "#6f42c1",
+        "count": "56,989",
+        "url": "http://localhost:80/ci-emp-portal-api/user/manage"
+      },
+      {
+        "targetRole": "1",
+        "heading": "YoY sales",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-secondary",
+        "icon": "projects",
+        "iconCss": "#6f42c1",
+        "count": "98,809",
+        "url": "http://localhost:80/ci-emp-portal-api/project"
+      },
+      {
+        "targetRole": "1",
+        "heading": "dummy text",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-success",
+        "icon": "timesheet",
+        "iconCss": "#6f42c1",
+        "count": "25,090",
+        "url": "http://localhost:80/ci-emp-portal-api/project/timesheet_report"
+      },
+      {
+        "targetRole": "1",
+        "heading": "dummy text",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-info",
+        "icon": "check",
+        "iconCss": "#6f42c1",
+        "count": "19,087",
+        "url": "http://localhost:80/ci-emp-portal-api/leave/manage"
+      },
+      {
+        "targetRole": "",
+        "heading": "dummy text",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-warning",
+        "icon": "actionRequired",
+        "iconCss": "#6f42c1",
+        "count": "8,908",
+        "url": "http://localhost:80/ci-emp-portal-api/leave/manage"
+      },
+      {
+        "targetRole": "",
+        "heading": "dummy text",
+        "infoText": "",
+        "textCSS": "",
+        "bg_css": "",
+        "digitCSS": "text-danger",
+        "icon": "clock",
+        "iconCss": "#6f42c1",
+        "count": "12,234",
+        "url": "http://localhost:80/ci-emp-portal-api/project/timesheet"
+      }
+    ],
+    "token": null
+  }

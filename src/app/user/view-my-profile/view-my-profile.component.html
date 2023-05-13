@@ -1,0 +1,64 @@
+<h1>My Profile</h1>
+<!-- <img width="100px" src="../../../assets/img/angular_solidBlack.png" alt="DP"> -->
+<h3 class="mt-4">{{userInfo?.user_firstname}} {{userInfo?.user_lastname}}</h3>
+<div>{{userInfo?.designation_name}}</div>
+<div><a href="mailto:{{userInfo?.user_email}}">{{userInfo?.user_email}}</a></div>
+<div>{{userInfo?.user_phone1}}</div>
+<div>
+   <span *ngIf="userInfo?.user_status === 'Y' " class="badge rounded-pill bg-success">Active</span>
+   <span *ngIf="userInfo?.user_status === 'N' " class="badge rounded-pill bg-warning text-dark">Inactive</span>
+   <span *ngIf="userInfo?.user_status === 'A' " class="badge rounded-pill bg-danger">Archived</span>
+</div>
+
+<section class="my-4">
+   <p-divider align="left">
+      <div class="inline-flex align-items-center">
+         <h5 class="my-2 text-primary"><app-icon [name]="'user'" [styleCSS]="{'font-size': 'inherit'}"></app-icon> Basic Info</h5>
+      </div>
+   </p-divider>
+   <dl class="row">
+      <dt class="col-md-4 col-lg-3">Employee ID</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_emp_id}}</dd>
+      <dt class="col-md-4 col-lg-3">Designation</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.designation_name}}</dd>
+      <dt class="col-md-4 col-lg-3">Employment Type</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.employment_type_name}}</dd>
+      <dt class="col-md-4 col-lg-3">Department</dt>
+      <dd class="col-md-8 col-lg-9" [innerHTML]="userInfo?.department_name || '-'"></dd>
+      <dt class="col-md-4 col-lg-3">Date of Joining</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_doj | date:'dd-MM-yyyy'}}</dd>
+      <dt class="col-md-4 col-lg-3">Personal Email</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_email_secondary || '-'}}</dd>
+      <dt class="col-md-4 col-lg-3">Work Phone</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_phone2 || '-'}}</dd>
+      <dt class="col-md-4 col-lg-3">Date of Birth</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_dob | date:'dd-MM-yyyy'}}</dd>
+      <dt class="col-md-4 col-lg-3">Gender</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_gender}}</dd>
+      <dt class="col-md-4 col-lg-3">Blood Group</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_blood_group || '-'}}</dd>
+   </dl>
+</section>
+
+<section class="my-4">
+   <p-divider align="left">
+      <div class="inline-flex align-items-center">
+         <h5 class="my-2 text-primary"><app-icon [name]="'info'" [styleCSS]="{'font-size': 'inherit'}"></app-icon> Account Information
+         </h5>
+      </div>
+   </p-divider>
+   <dl class="row">
+      <dt class="col-md-4 col-lg-3">Account Status</dt>
+      <dd class="col-md-8 col-lg-9">
+         <span *ngIf="userInfo?.user_status === 'Y' " class="badge rounded-pill bg-success">Active</span>
+         <span *ngIf="userInfo?.user_status === 'N' " class="badge rounded-pill bg-warning text-dark">Inactive</span>
+         <span *ngIf="userInfo?.user_status === 'A' " class="badge rounded-pill bg-danger">Archived</span>
+      </dd>
+      <dt class="col-md-4 col-lg-3">Role/Access</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.role_name}}</dd>
+      <dt class="col-md-4 col-lg-3">User Since</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_registration_date | date: 'dd-MM-yyyy h:mm:ss a'}}</dd>
+      <dt class="col-md-4 col-lg-3">Last Login</dt>
+      <dd class="col-md-8 col-lg-9">{{userInfo?.user_login_date_time | date: 'dd-MM-yyyy h:mm:ss a'}}</dd>
+   </dl>
+</section>

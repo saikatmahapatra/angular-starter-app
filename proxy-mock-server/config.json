@@ -1,0 +1,104 @@
+{
+    "mockDirectory": "./responses",
+    "quiet": false,
+    "port": "7878",
+    "latency": 200,
+    "enableSSL": false,
+    "allowedHeaders": [
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept,X-HTTP-Method-Override, X-Token-Auth, Authorization, perPage, page"
+    ],
+    "webServices": {
+        "test": {
+            "mockFile": "test.json",
+            "verbs": [
+                "get",
+                "post",
+                "put"
+            ]
+        },
+        "posts": {
+            "mockFile": "posts.json",
+            "verbs": [
+                "get",
+                "post",
+                "put"
+            ]
+        },
+        "comments": {
+            "mockFile": "comments.json",
+            "verbs": [
+                "get",
+                "post",
+                "put"
+            ]
+        },
+        "auth/authenticate": {
+            "mockFile": "authenticationResponse.json",
+            "verbs": [
+                "post"
+            ]
+        },
+        "dashboardStat": {
+            "mockFile": "content.json",
+            "verbs": [
+                "get",
+                "post",
+                "put"
+            ]
+        },
+        "user/getUser": {
+            "mockFile": "user.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "user/userDetails": {
+            "mockFile": "userDetails.json",
+            "verbs": [
+                "get",
+                "post"
+            ]
+        },
+        "user/userFormData": {
+            "mockFile": "userFormData.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "auth/validateToken": {
+            "mockFile": "validateToken.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "cms/getDashboardStat": {
+            "mockFile": "getDashboardStat.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "cms/getPosts": {
+            "mockFile": "getPost.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "auth/validateRolePermissions": {
+            "mockFile": "validateRolePermissions.json",
+            "verbs": [
+                "get"
+            ]
+        },
+        "user/createUser": {
+            "mockFile": "createUserResponse.json",
+            "verbs": [
+                "post"
+            ]
+        },
+        "/*": {
+            "default": true,
+            "host": "http://localhost:4200"
+        }
+    }
+}

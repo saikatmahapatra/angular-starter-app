@@ -1,0 +1,51 @@
+{
+    "status": "success",
+    "message": null,
+    "data": {
+      "user": [
+        {
+          "id": "1",
+          "user_email": "webuidevs@gmail.com",
+          "user_email_secondary": "aaa@aaa.com",
+          "user_title": "Mr.",
+          "user_firstname": "Portal",
+          "user_midname": null,
+          "user_lastname": "Admin",
+          "user_gender": "M",
+          "user_role": "1",
+          "user_type": "S",
+          "user_department": "7",
+          "user_designation": "21",
+          "user_bio": null,
+          "user_dob": "1980-12-14",
+          "user_blood_group": "",
+          "user_doj": "2015-01-22",
+          "user_employment_type": "1",
+          "user_dor": null,
+          "user_emp_id": "0189",
+          "user_profile_pic": null,
+          "user_phone1": "9000000001",
+          "user_phone2": "9000000007",
+          "user_pan_no": "TESTW0000X",
+          "user_aadhar_no": null,
+          "user_passport_no": null,
+          "user_uan_no": "1234567890",
+          "user_registration_date": "2018-09-23 00:16:14",
+          "user_registration_ip": "50.7.184.98",
+          "user_reset_password_key": "d49447f800d266b2905b9f5febb2e972",
+          "user_activation_key": "c64addcea9ac7c8fedadecc2b60b9368",
+          "user_status": "Y",
+          "user_login_date_time": "2022-08-04 13:30:24",
+          "account_closed_by": null,
+          "account_closed_datetime": null,
+          "account_closed_by_system_datetime": null,
+          "account_close_comments": null,
+          "role_name": "Super Admin",
+          "role_weight": "100",
+          "department_name": null,
+          "designation_name": "Senior Software Engineer",
+          "employment_type_name": "Employee Full Time"
+        }
+      ]
+    }
+  }
