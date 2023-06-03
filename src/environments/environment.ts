@@ -5,13 +5,13 @@
 export const environment = {
   name: 'dev',
   production: false,
+  version: require('../../package.json').version + '-dev',
   title: "MyApp",
   productName: "MyApp",
   apiBaseUrl: "http://localhost/ci-emp-portal-api/",
   mockAPIUrl: "http://localhost:7878/",
   useMockServer: true,
-  copyrightInfo: "Developed by - <a href=\"https://www.linkedin.com/in/saikatmahapatra\" target=\"_blank\">Saikat Mahapatra</a>",
-  version: "v1.0"
+  copyrightInfo: "Developed by - <a href=\"https://www.linkedin.com/in/saikatmahapatra\" target=\"_blank\">Saikat Mahapatra</a>"
 };
 
 /*
