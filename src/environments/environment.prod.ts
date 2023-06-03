@@ -3,7 +3,7 @@ export const environment = {
   production: true,
   title: "MyApp - ABC Corp",
   productName: "MyApp",
-  apiBaseUrl: "http://portalapi.ueipl.co.in/api/",
+  apiBaseUrl: "http://example.com/api/",
   mockAPIUrl: "http://localhost:7878/",
   useMockServer: false,
   copyrightInfo: "Copyright &copy; 2023 ABC Corp",
