@@ -11,7 +11,7 @@ export const environment = {
   apiBaseUrl: "http://localhost/ci-emp-portal-api/",
   mockAPIUrl: "http://localhost:7878/",
   useMockServer: true,
-  copyrightInfo: "Developed by - <a href=\"https://www.linkedin.com/in/saikatmahapatra\" target=\"_blank\">Saikat Mahapatra</a>"
+  copyrightInfo: "Developed by - <a href=\"https://www.linkedin.com/in/saikatmahapatra\" target=\"_blank\">Saikat Mahapatra</a>; See <a href=\"example\">Angular Concept's Example</a>."
 };
 
 /*

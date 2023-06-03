@@ -7,6 +7,7 @@ import { AuthenticatedLayoutComponent } from './@shared/components/layouts/authe
 import { ErrorPageNotFoundComponent } from './error-page-not-found/error-page-not-found.component';
 import { ErrorUnauthorizedComponent } from './error-unauthorized/error-unauthorized.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { DefaultLayoutComponent } from './@shared/components/layouts/default-layout/default-layout.component';
 
 // Routing with lazy loading
 const routes: Routes = [
@@ -23,6 +24,16 @@ const routes: Routes = [
         path: 'auth',
         loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
       }
+    ]
+  },
+  {
+    path: '',
+    component: DefaultLayoutComponent,
+    children: [
+      {
+        path: 'example',
+        loadChildren: () => import('./ng-example/ng-example.module').then(m => m.NgExampleModule)
+      },
     ]
   },
   {
